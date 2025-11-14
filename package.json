@@ -1,0 +1,14 @@
+{
+  "name": "fast-mcp",
+  "version": "0.1.0",
+  "description": "A simple MCP server example built with FastMCP",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npx fastmcp dev server.js"
+  },
+  "dependencies": {
+    "fastmcp": "^3.16.0"
+  }
+}
